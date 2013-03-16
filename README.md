@@ -1,7 +1,7 @@
 Responsive Slideshow
 ====================
 
-This is a responsive slideshow jQuery plugin. There are a lot of slideshow plugins out there. But I wanted somthing simple that had features like touch-support, responsive resizing, and CSS3 transitions among other things. So we wrote one.
+This is a responsive slideshow jQuery plugin. There are a lot of slideshow plugins out there. But I wanted somthing simple that had features like touch-support, responsive resizing, and CSS3 transitions among other things.
 
 Features:
 ---------
