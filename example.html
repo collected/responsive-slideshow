@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+
+		<link href="css/responsive_slideshow.css" rel="stylesheet">
+
+		<script src="js/lib/jquery-1.7.2.min.js"></script>
+		<script src="js/lib/jquery.debounce.min.js"></script>
+		<script src="js/lib/modernizr.custom.js"></script>
+		<script src="js/responsive_slideshow.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$('#a-slideshow').slideshow();
+			});
+		</script>
+	</head>
+
+	<body>
+		<h1>Responsive Slideshow</h1>
+
+		<div id="a-slideshow">
+			<div class="slideshow slideshow-keys" style="border: 1px solid lightgray" tabindex="0">
+				<div class="inner-container" >
+					<div class="slide" data-attribute-slide="0">
+						Slide 1
+					</div>
+					<div class="slide" data-attribute-slide="1">
+						Slide 2
+					</div>
+					<div class="slide" data-attribute-slide="2">
+						Slide 3
+					</div>
+				</div>
+			</div>
+			<div>
+		        <ul class="slideshow-dot-nav">
+		          <li>
+		        	<a href="#slideshow" data-slide-link="0" class="active" title="Slide 1">Slide 1</a>
+		          </li>
+		          <li>
+		        	<a href="#slideshow" data-slide-link="1" title="Slide 2">Slide 2</a>
+		          </li>
+		          <li>
+		        	<a href="#slideshow" data-slide-link="2" title="Slide 3">Slide 3</a>
+		          </li>
+		        </ul>
+		    </div>
+		</div>
+
+	</body>
+</html>
