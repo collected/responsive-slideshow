@@ -62,7 +62,7 @@ The plugin expects the following structure:
 		</div>
 ```
 
-Then, when after require the scripts, when your document is ready:
+Then, aftering requiring the scripts, initialize the plugin on your root slideshow element:
 
 ```javascript
 	<script>
