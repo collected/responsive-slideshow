@@ -1,7 +1,7 @@
 Responsive Slideshow
 ====================
 
-This is a responsive slideshow jQuery plugin. There are a of slideshows out there, but we wanted a lot of features like touch-support, responsive resizing, and CSS3 transitions among other things. So we wrote one.
+This is a responsive slideshow jQuery plugin. There are a lot of slideshow plugins out there. But we wanted somthing simple that had features like touch-support, responsive resizing, and CSS3 transitions among other things. So we wrote one.
 
 Features:
 ---------
@@ -16,7 +16,7 @@ Features:
 		Tested in IE8+ and other modern browsers.Looks like hell in IE7 and below. If you care, fork it and fix it.
 	</li>
 	<li>
-		Touch support on iOS and Android (though not tested on everything). Doesn't prevent vertical scrolling!
+		Touch support on iOS and Android (though not tested on everything). It doesn't prevent vertical scrolling on touch devices!
 	</li>
 	<li>
 		Keyboard support.
@@ -33,33 +33,33 @@ The plugin expects the following structure:
 
 ```html
 	<div id="a-slideshow">
-			<div class="slideshow slideshow-keys">
-				<div class="inner-container" >
-					<div class="slide" data-attribute-slide="0">
-						Slide 1
-					</div>
-					<div class="slide" data-attribute-slide="1">
-						Slide 2
-					</div>
-					<div class="slide" data-attribute-slide="2">
-						Slide 3
-					</div>
+		<div class="slideshow slideshow-keys">
+			<div class="inner-container" >
+				<div class="slide" data-attribute-slide="0">
+					Slide 1
+				</div>
+				<div class="slide" data-attribute-slide="1">
+					Slide 2
+				</div>
+				<div class="slide" data-attribute-slide="2">
+					Slide 3
 				</div>
 			</div>
-			<div>
-		        <ul class="slideshow-dot-nav">
-		          <li>
-		        	<a href="#slideshow" data-slide-link="0" class="active" title="Slide 1">Slide 1</a>
-		          </li>
-		          <li>
-		        	<a href="#slideshow" data-slide-link="1" title="Slide 2">Slide 2</a>
-		          </li>
-		          <li>
-		        	<a href="#slideshow" data-slide-link="2" title="Slide 3">Slide 3</a>
-		          </li>
-		        </ul>
-		    </div>
 		</div>
+		<div>
+	        <ul class="slideshow-dot-nav">
+	          <li>
+	        	<a href="#slideshow" data-slide-link="0" class="active" title="Slide 1">Slide 1</a>
+	          </li>
+	          <li>
+	        	<a href="#slideshow" data-slide-link="1" title="Slide 2">Slide 2</a>
+	          </li>
+	          <li>
+	        	<a href="#slideshow" data-slide-link="2" title="Slide 3">Slide 3</a>
+	          </li>
+	        </ul>
+	    </div>
+	</div>
 ```
 
 Then, aftering requiring the scripts, initialize the plugin on your root slideshow element:
